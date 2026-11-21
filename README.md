@@ -17,7 +17,8 @@ Cataclysm: Bright Nights 的 UI 2.0 重设计 + 鼠标系统交接文档。
 - [P0 技术预验证状态：地图 + 面板 PoC](P0-地图面板PoC-状态.md)（代码分支 `poc/map-panel`）
 - 原型图（1600x900 概念示意）：[主菜单](img/ui2-main-menu.png) · [HUD](img/ui2-hud.png) · [物资面板](img/ui2-inventory.png)
 
-## 代码
+## 代码与规则
 
-- 源码：`github.com/silingzzz/cbn-ui2-dev`，鼠标系统在 **`feat/mouse-system`** 分支（已全部推送）
-- 构建/运行/验证步骤见交接文档「零、当前状态快照」
+- 源码：`github.com/silingzzz/cbn-ui2-dev`，默认分支就是 **`feat/mouse-system`**（已全部推送）
+- 规则：`github.com/silingzzz/cbn-rules`（权威副本的 GitHub 版本；本仓库 `规则/CBN/` 是镜像）
+- 构建/运行/验证步骤见交接文档「零、当前状态快照」或一页版交接摘要
