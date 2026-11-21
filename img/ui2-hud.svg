@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .bg{fill:#0c0f12}
+      .panel{fill:#12161a;stroke:#2a3238;stroke-width:1}
+      .body{fill:#e6e2d8;font-family:"Segoe UI",sans-serif;font-size:16px}
+      .sec{fill:#9aa3a8;font-family:"Segoe UI",sans-serif;font-size:13px}
+      .accent{fill:#7fb069}
+      .amber{fill:#d9a03b}
+      .danger{fill:#c2554a}
+      .btn{fill:#1c2429;stroke:#2a3238;stroke-width:1}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+
+  <!-- 地图区域（像素地块示意） -->
+  <g>
+    <rect x="40" y="90" width="1180" height="700" fill="#151a17"/>
+    <g fill="#2b2f26">
+      <rect x="300" y="200" width="180" height="60"/><rect x="300" y="260" width="180" height="60"/>
+      <rect x="480" y="200" width="120" height="120"/>
+      <rect x="300" y="380" width="300" height="60"/>
+    </g>
+    <g fill="#3a3f33">
+      <rect x="300" y="440" width="60" height="60"/><rect x="360" y="440" width="60" height="60"/>
+      <rect x="420" y="440" width="60" height="60"/><rect x="540" y="320" width="60" height="60"/>
+    </g>
+    <!-- 角色 -->
+    <g>
+      <rect x="626" y="438" width="28" height="28" fill="#c9b37e" stroke="#e6e2d8"/>
+      <text class="sec" x="616" y="486">@</text>
+    </g>
+    <!-- 悬停提示 -->
+    <rect x="700" y="300" width="210" height="66" fill="#12161a" stroke="#7fb069" rx="4"/>
+    <text class="body" x="716" y="326">Wooden door</text>
+    <text class="accent" x="716" y="350">Can open</text>
+  </g>
+
+  <!-- HUD 状态条 -->
+  <rect class="panel" x="40" y="30" width="1180" height="46" rx="4"/>
+  <text class="body" x="60" y="59">HP</text>
+  <rect x="92" y="44" width="160" height="16" fill="#22302a"/>
+  <rect x="92" y="44" width="131" height="16" fill="#7fb069"/>
+  <text class="sec" x="262" y="59">82/100</text>
+
+  <text class="body" x="330" y="59">Hunger</text>
+  <rect x="400" y="44" width="90" height="16" fill="#332a1a"/>
+  <rect x="400" y="44" width="45" height="16" fill="#d9a03b"/>
+  <text class="sec" x="498" y="59">Med</text>
+
+  <text class="body" x="560" y="59">Weight</text>
+  <rect x="630" y="44" width="110" height="16" fill="#22302a"/>
+  <rect x="630" y="44" width="54" height="16" fill="#7fb069"/>
+  <text class="sec" x="748" y="59">24.6/50 kg</text>
+
+  <text class="sec" x="880" y="59">08:12</text>
+  <text class="sec" x="940" y="59">Spring 3</text>
+  <text class="accent" x="1040" y="59">Comfortable</text>
+
+  <!-- 右侧信息栏 -->
+  <rect class="panel" x="1240" y="30" width="320" height="700" rx="4"/>
+  <text class="body" x="1260" y="64">SURROUNDINGS</text>
+  <line x1="1260" y1="76" x2="1540" y2="76" stroke="#2a3238"/>
+  <text class="sec" x="1260" y="104">Evac shelter</text>
+  <text class="sec" x="1260" y="130">Weather: Fair 12°C</text>
+  <text class="sec" x="1260" y="156">Light: Cloudy</text>
+  <text class="body" x="1260" y="200">THREATS</text>
+  <line x1="1260" y1="212" x2="1540" y2="212" stroke="#2a3238"/>
+  <text class="danger" x="1260" y="240">Something moves nearby</text>
+  <text class="sec" x="1260" y="266">— line of sight blocked</text>
+
+  <text class="body" x="1260" y="330">QUICK ACTIONS</text>
+  <line x1="1260" y1="342" x2="1540" y2="342" stroke="#2a3238"/>
+  <text class="sec" x="1260" y="370">Inventory  I</text>
+  <text class="sec" x="1260" y="396">Craft      C</text>
+  <text class="sec" x="1260" y="422">Equip      E</text>
+  <text class="sec" x="1260" y="448">Build      *</text>
+  <text class="sec" x="1260" y="474">Vehicle    ^</text>
+
+  <!-- 快捷栏 -->
+  <g>
+    <rect class="btn" x="40" y="806" width="150" height="48" rx="4"/>
+    <text class="body" x="62" y="836">INVENTORY</text>
+    <rect class="btn" x="202" y="806" width="120" height="48" rx="4"/>
+    <text class="body" x="224" y="836">CRAFT</text>
+    <rect class="btn" x="334" y="806" width="120" height="48" rx="4"/>
+    <text class="body" x="356" y="836">EQUIP</text>
+    <rect class="btn" x="466" y="806" width="120" height="48" rx="4"/>
+    <text class="body" x="488" y="836">BUILD</text>
+    <rect class="btn" x="598" y="806" width="140" height="48" rx="4"/>
+    <text class="body" x="620" y="836">VEHICLE</text>
+  </g>
+
+  <!-- 消息区 -->
+  <rect class="panel" x="760" y="806" width="460" height="48" rx="4"/>
+  <text class="sec" x="780" y="836">You hear something in the distance.</text>
+</svg>

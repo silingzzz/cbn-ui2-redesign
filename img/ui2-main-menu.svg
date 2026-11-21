@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .bg{fill:#0c0f12}
+      .panel{fill:#12161a;stroke:#2a3238;stroke-width:1}
+      .title{fill:#e6e2d8;font-family:"Segoe UI","Noto Sans CJK SC",sans-serif;font-size:30px;font-weight:600}
+      .h2{fill:#e6e2d8;font-family:"Segoe UI",sans-serif;font-size:19px;font-weight:600}
+      .body{fill:#e6e2d8;font-family:"Segoe UI",sans-serif;font-size:17px}
+      .sec{fill:#9aa3a8;font-family:"Segoe UI",sans-serif;font-size:14px}
+      .accent{fill:#7fb069}
+      .amber{fill:#d9a03b}
+      .sel{fill:#3a4a3f}
+      .btn{fill:#1c2429;stroke:#2a3238;stroke-width:1}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="900"/>
+
+  <!-- 背景废墟剪影 -->
+  <g opacity="0.25" fill="#1a2226">
+    <rect x="0" y="620" width="1600" height="280"/>
+    <rect x="120" y="480" width="90" height="260"/>
+    <rect x="230" y="540" width="60" height="200"/>
+    <rect x="1320" y="440" width="110" height="300"/>
+    <rect x="1440" y="520" width="70" height="220"/>
+    <rect x="760" y="500" width="80" height="240"/>
+  </g>
+
+  <!-- 标题 -->
+  <text class="title" x="80" y="110">CATACLYSM: BRIGHT NIGHTS</text>
+  <text class="sec" x="80" y="140">UI 2.0 — MAIN MENU</text>
+
+  <!-- 继续游戏卡片 -->
+  <rect class="panel" x="80" y="200" width="520" height="300" rx="4"/>
+  <text class="h2" x="104" y="242">CONTINUE</text>
+  <line x1="104" y1="258" x2="576" y2="258" stroke="#2a3238"/>
+  <rect x="104" y="280" width="120" height="120" fill="#1c2429" stroke="#2a3238"/>
+  <text class="sec" x="126" y="346">survivor</text>
+  <text class="body" x="248" y="316">Isaiah Jones</text>
+  <text class="sec" x="248" y="344">Charleston · Day 3 · 08:12</text>
+  <text class="sec" x="248" y="372">Evac Shelter · above ground</text>
+  <rect class="btn" x="248" y="400" width="120" height="40" rx="4"/>
+  <text class="accent" x="272" y="426">Resume</text>
+  <rect class="btn" x="380" y="400" width="110" height="40" rx="4"/>
+  <text class="sec" x="404" y="426">Delete</text>
+
+  <!-- 提示条 -->
+  <text class="amber" x="80" y="560">Tip of the day: press ? to see every keybinding.</text>
+
+  <!-- 菜单 -->
+  <rect class="panel" x="1080" y="200" width="440" height="380" rx="4"/>
+  <text class="h2" x="1104" y="242">MENU</text>
+  <line x1="1104" y1="258" x2="1496" y2="258" stroke="#2a3238"/>
+
+  <rect class="sel" x="1104" y="276" width="392" height="38" rx="2"/>
+  <rect class="accent" x="1104" y="276" width="3" height="38"/>
+  <text class="body" x="1120" y="301">Continue</text>
+
+  <text class="body" x="1120" y="345">New Game</text>
+  <text class="body" x="1120" y="389">Load Game</text>
+  <text class="body" x="1120" y="433">World</text>
+  <text class="body" x="1120" y="477">Settings</text>
+  <text class="body" x="1120" y="521">Help / About</text>
+  <text class="body" x="1120" y="565">Quit</text>
+
+  <text class="sec" x="1080" y="620">Mouse: click any row · Keyboard: arrows + Enter (unchanged)</text>
+
+  <!-- 版本 -->
+  <text class="sec" x="1430" y="860">v2.0 design mock</text>
+</svg>
